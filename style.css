@@ -1,0 +1,219 @@
+body {
+    font-family: serif;
+color: white;
+background:
+linear-gradient(27deg, #000015 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #000015 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #002 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #002 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #00001b 10px, transparent 10px),
+linear-gradient(#00001d 25%, #00001a 25%, #00001a 50%, transparent 50%, transparent 75%, #000024 75%, #000024);
+background-color: #000013;
+background-size: 20px 20px;
+<!--display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+justify-items: center;
+align-content: center;-->
+}
+
+h1 {
+    font-style: italic;
+font-size: 75px;
+filter: blur(1px);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a {
+    align: center;
+    font-family: serif;
+color: white;
+}
+
+.open {
+text-decoration: underline;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 35px;
+width: 60%;
+}
+
+img {
+border-radius: 10px;
+width: 100%;
+}
+
+.about {
+margin: 30px 20% 30px 20%;
+}
+
+.textbox {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+width: 400px;
+background-color: lightBlue;
+font-family: serif;
+}
+
+iframe {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+.container {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 65%;
+margin-top: 20px;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.links {
+text-align: center;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+margin-top: 20px;
+filter: brightness(90%);
+}
+
+.links-secondary {
+text-align: center;
+display: flex;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+margin-top: 20px;
+filter: brightness(80%)
+}
+
+.caption {
+text-align: center;
+font-style: italic;
+margin: 5px;
+padding: 3%;
+background:linear-gradient(45deg, #00001f, #00003d, #000000);
+border-radius: 20px;
+}
+
+.half {
+width: 40%;
+height: 100%;
+}
+
+.full {
+width: 90%;
+}
+
+.message {
+height: 400px;
+width: 400px;
+}
+
+video {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+div {
+display: inline-block;
+}
+
+.button {
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-family: serif;
+font-size: 20px;
+font-style: italic;
+background-color: #00004f;
+color: white;
+height: 40px;
+width: 100px;
+border-radius: 20px;
+}
+
+input, textarea {
+border-radius: 10px;
+font-size: 16px;
+}
+
+.left {
+float: left;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
